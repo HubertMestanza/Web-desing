@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Home</title>
-	
+	<link rel="icon" href="img/mb.PNG" type="image/x-icon">
 	<link href="css/normalize.css" type="text/css" rel="stylesheet"/>
 	<link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
@@ -21,7 +21,7 @@
         </div>
         <div class="clear"></div>
     	<hgroup id="logo">
-        	<h1>Music Band</h1>
+        	<h1><a href="#">Music Band</a></h1>
         </hgroup>
         <nav id="menu">
         	<ul>
@@ -116,8 +116,8 @@
             </div>
         </article>
         <div class="clear"></div>
-        <article>
-        	<div id="welcome">
+        <article id="information">
+        	<div id="welcome" class="box-info">
             	<h2>Welcome to our site!</h2>
                 <img src="img/img5.png"/>
                 <a href="#">Lorem ipsum dolor sit amet, consec teer adipiscing. Prsent vestibulum molestie lacuiirhs. 
@@ -125,9 +125,9 @@
                 <p>Lorem ipsum dolor sit amet, consec tetuer adipiscing. Praesent vestibu lum molestie lacuiirhs. 
                 	Aenean non ummy hendreriauris. Phasellllus. porta. Fusce suscipit varius mium sociis totdnatibus 
                		et magis dis parturient montes, nascetur ridiculus mus. Nulla dui.</p>
-                 <a href="#">more</a>
+                 <a href="#" class="more">more</a>
             </div>
-            <div id="news">
+            <div id="news" class="box-info">
             	<h2>News</h2>
                 <div id="post1" class="post">
                 	<span>09.10.2013</span>
@@ -148,36 +148,37 @@
                 	<i class="fa fa-angle-right"></i>
                 </div>
             </div>
-            <div id="latest">
+            <div id="latest" class="box-info">
             	<h2>Latest Reviews</h2>
                 <a href="#">Lorem ipsum dolor sit amet, consec teer adipiscing. Prsent vestibulum mo.</a>
                 <div class="box">
                 	<img src="img/img6.png"/>
-                    <p><a href="#">Lorem ipsum dolor sit amet,</a>consec tetuer adipiscing. lum molestie lacuiirhs. Aene.</p>
+                    <p><a href="#">Lorem ipsum dolor sit amet, </a>consec tetuer adipiscing. lum molestie lacuiirhs. Aene.</p>
                 </div>
                 <div class="box">
                 	<img src="img/img7.png"/>
-                    <p><a href="#">Consec tetuer adipiscing.</a>Aenean non ummy hendreria. uris. Phasellllus. porta. Fusce.</p>
+                    <p><a href="#">Consec tetuer adipiscing. </a>Aenean non ummy hendreria. uris. Phasellllus. porta. Fusce.</p>
                 </div>
-                <div class="box">
+                <div  id="box-ultimo" class="box">
                 	<img src="img/img8.png"/>
-                    <p><a href="#">Consec tetuer adipiscing.</a>Fusce suscipit varius mium. sociis totdnatibus et magis.</p>
+                    <p><a href="#">Consec tetuer adipiscing. </a>Fusce suscipit varius mium. sociis totdnatibus et magis.</p>
                 </div>
-                <a href="#">more</a>
+                <a href="#" class="more">more</a>
             </div>
         </article>
+        <div class="clear"></div>
     </section>
     <footer>
-    	<div class="privacy">
-        	<span> 2015 © </span>
-            <a href="#">Privacy Policy</a>
+    	<div id="footer">
+        	<span class="privacy"> 2015 © </span>
+            <a href="#" class="privacy">Privacy Policy</a>
         </div>
-        <div class="menu-footer">
+        <div id="menu-footer">
         	<ul>
             	<li><a href="#">Support</a></li>
-                <li><a href="#">Faqs</a></li>
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Help</a></li>
+                <li style="list-style-type: disc"><a href="#">Faqs</a></li>
+                <li style="list-style-type: disc"><a href="#">Sitemap</a></li>
+                <li style="list-style-type: disc"><a href="#">Help</a></li>
             </ul>
         </div>
     </footer>
